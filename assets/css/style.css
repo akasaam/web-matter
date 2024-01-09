@@ -1149,7 +1149,31 @@ section {
   position: relative;
   overflow: hidden;
 }
-
+.pricing .lufi {
+  width: 800px;
+  padding: 20px;
+  margin-bottom: 40px;
+  border: #000000 dotted;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.pricing .lufi h6 {
+  color: #808080;
+}
+@media (max-width: 768px) {
+  .pricing .lufi {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .pricing .lufi h5 {
+    color: rgb(37, 25, 25);
+    font-weight: 600;
+  }
+  .pricing .lufi h6 {
+    color: #808080;
+  }
+}
 .pricing h3 {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
