@@ -1144,8 +1144,8 @@ section {
   padding: 20px;
   background: #fff;
   text-align: center;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.518);
+  border-radius: 10px;
   position: relative;
   overflow: hidden;
 }
@@ -1153,9 +1153,10 @@ section {
   width: 800px;
   padding: 20px;
   margin-bottom: 40px;
-  border: #000000 dotted;
+  border: #ada9a9 1px solid;
   border-radius: 10px;
   font-weight: 600;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.182);
 }
 .pricing .lufi h6 {
   color: #808080;
