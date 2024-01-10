@@ -1272,6 +1272,34 @@ section {
   color: #fff;
 }
 
+.plan-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc66;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.plan-section {
+  width: 80%;
+  border: 1px unset black;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .plan-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .plan-section {
+    width: 30%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
@@ -1404,7 +1432,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #0d7ded;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1452,7 +1480,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #d9232d;
+  border-color: #000000;
 }
 
 .contact .php-email-form input {
@@ -1464,7 +1492,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #d9232d;
+  background: #2393d9;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1473,7 +1501,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #e24d55;
+  background: #4ef077;
 }
 
 @keyframes animate-loading {
