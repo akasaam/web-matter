@@ -572,6 +572,35 @@ section {
   object-fit: contain;
   mix-blend-mode: color-burn;
 }
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 15px 0;
+  text-align: center;
+  background: #000;
+}
+
+.clients img {
+  /* mix-blend-mode: color-burn; */
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+
+.clients img:hover {
+  filter: none;
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
+
 .services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
