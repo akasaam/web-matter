@@ -863,10 +863,14 @@ section {
   font-size: 15px;
 }
 .features .nav-link:hover {
+  background: #ccc;
+  border-radius: 10px;
   color: #030202;
 }
 .features .nav-link.active {
-  color: #0000004f;
+  background: #ccc;
+  border-radius: 5px;
+  color: #000000;
   border-color: #000;
 }
 .features .tab-pane.active {
@@ -903,7 +907,8 @@ section {
   }
   .features .nav-link.active {
     color: #fff;
-    background: #d9232d;
+    background: #a18e8f84;
+    border-radius: 10px;
   }
 }
 .pricing .box {
