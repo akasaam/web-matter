@@ -1103,6 +1103,47 @@ section {
   font-weight: 500;
   margin: 0 0 10px 28px;
 }
+/* === CARRIER === */
+.task-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.task {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px; /* Added border radius */
+}
+.task:hover {
+  border: 1.3px solid blue;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px; /* Added border radius */
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 255, 0.1),
+    inset -3em -3em rgba(0, 255, 255, 0.8);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .task-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+/* === CARRIER END === */
+
 .faq .faq-item p {
   font-size: 15px;
 }
