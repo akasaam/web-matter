@@ -24,6 +24,7 @@ a:hover {
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
+  animation: fadeIn 0.5s ease-out;
 }
 #hero .btn-get-started,
 .pricing .btn-buy,
@@ -1120,7 +1121,7 @@ section {
 }
 
 button {
-  background-color: blue;
+  background-color: rgb(58, 58, 232);
   color: white;
   padding: 10px 20px;
   border-radius: 5px; /* Added border radius */
@@ -1294,6 +1295,65 @@ button:hover {
     transform: rotate(360deg);
   }
 }
+/* ===form=== */
+.for-form {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #e3dada50;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.gufi {
+  padding: 8px 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus,
+option:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #007bff;
+}
+
+/* form end */
 #footer {
   background: #030303;
   padding: 0 0 30px;
@@ -1369,34 +1429,7 @@ button:hover {
   display: inline-block;
   line-height: 1;
 }
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-}
-#footer .footer-top .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-#footer .footer-top .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: 0;
-  border: 0;
-  background: #948b8b;
-  font-size: 16px;
-  padding: 0 20px 2px;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-}
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #000;
-}
+
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
